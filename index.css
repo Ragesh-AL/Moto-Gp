@@ -1,0 +1,92 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('Background image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ff0000;
+}
+
+/* Container styling */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-image: url('container image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Form styling */
+.form-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ff4d00;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #ff0000;
+}
+
+/* Signup with Google button styling */
+.form-container .google-btn {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #1d92f1;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container .google-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.form-container .google-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Signup options */
+.options {
+    margin-top: 10px;
+}
+
+.options a {
+    color: #fff200;
+    text-decoration: none;
+    font-weight: bold;
+}
