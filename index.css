@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('Background image.jpg'); 
+    background-image: url('https://raw.githubusercontent.com/Ragesh-AL/Moto-Gp/main/Background%20image.jpg'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -16,7 +16,7 @@ body {
 .login-container {
     width: 100%;
     max-width: 400px;
-    background-image: url('container image.jpg'); 
+    background-image: url('https://raw.githubusercontent.com/Ragesh-AL/Moto-Gp/main/container%20image.jpg'); 
     background-size: cover;
     background-position: center;
     border-radius: 10px;
